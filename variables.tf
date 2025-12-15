@@ -4,12 +4,12 @@ variable "key_id" {
 
 variable "parameters" {
   default = {
-    dev.expense.rds.username = "admin1"
+    "dev.expense.rds.username" = "admin1"
   }
 }
 
 variable "secrets" {
   default = {
-    dev.expense.rds.password = "ExpenseApp123"
+    "dev.expense.rds.password" = "ExpenseApp123"
   }
 }
