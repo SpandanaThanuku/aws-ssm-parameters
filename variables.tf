@@ -13,5 +13,7 @@ variable "parameters" {
 variable "secrets" {
   default = {
     "dev.expense.rds.password" = "ExpenseApp123"
+    "ssh.username" = "centos"
+    "ssh.password" = "DevOps321"
   }
 }
