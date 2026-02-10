@@ -17,6 +17,6 @@ variable "secrets" {
     "ssh.password"             = "DevOps321"
     "ses.username"             = "AKIAVCE4KOKTN5L7ZPV3"
     "ses.password"             = "BICUDmgWEtcXYFTCn91BdmasZ0KcNAcCEFtOcXS73oIz"
-    #"grafana.apikey"           = "glsa_0BU5tmU4rGiXTWCCQpZaEiSomxsio54c_d2f2c38b"
+    "grafana.apikey"           = "glsa_XA2FWtJickV0dSyrJRkHuB0Qo5AjgKXc_d3c065c8"
   }
 }
