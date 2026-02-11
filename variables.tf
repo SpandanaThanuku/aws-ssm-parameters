@@ -13,11 +13,12 @@ variable "parameters" {
 
 variable "secrets" {
   default = {
-    "dev.expense.rds.password" = "ExpenseApp123"
-    "ssh.username"             = "centos"
-    "ssh.password"             = "DevOps321"
-    "ses.username"             = "AKIAVCE4KOKTN5L7ZPV3"
-    "ses.password"             = "BICUDmgWEtcXYFTCn91BdmasZ0KcNAcCEFtOcXS73oIz"
+    "dev.expense.rds.password"                  = "ExpenseApp123"
+    "ssh.username"                              = "centos"
+    "ssh.password"                              = "DevOps321"
+    "ses.username"                              = "AKIAVCE4KOKTN5L7ZPV3"
+    "ses.password"                              = "BICUDmgWEtcXYFTCn91BdmasZ0KcNAcCEFtOcXS73oIz"
     "dev.expense.frontend.newrelic.key"         = "NRAK-NNAY54O696C4NT1WSBBKF44PVB0"
+    "dev.expense.backend.newrelic.key"          = "e2412ed21be8c021ac67ec998c17eb11FFFFNRAL"
   }
 }
