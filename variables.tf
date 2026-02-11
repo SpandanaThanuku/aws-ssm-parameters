@@ -4,9 +4,10 @@ variable "key_id" {
 
 variable "parameters" {
   default = {
-    "dev.expense.rds.username" = "admin1"
-    "dev.expense.rds.endpoint" = "dev-expense-rds.cgnms2ug6a3u.us-east-1.rds.amazonaws.com"
+    "dev.expense.rds.username"              = "admin1"
+    "dev.expense.rds.endpoint"              = "dev-expense-rds.cgnms2ug6a3u.us-east-1.rds.amazonaws.com"
     "dev.expense.frontend.backend_endpoint" = "https://backend-dev.tsdevops25.online/"
+    "expense.newrelic.account"              = "7699150"
   }
 }
 
@@ -17,6 +18,6 @@ variable "secrets" {
     "ssh.password"             = "DevOps321"
     "ses.username"             = "AKIAVCE4KOKTN5L7ZPV3"
     "ses.password"             = "BICUDmgWEtcXYFTCn91BdmasZ0KcNAcCEFtOcXS73oIz"
-    "grafana.apikey"           = "glsa_XA2FWtJickV0dSyrJRkHuB0Qo5AjgKXc_d3c065c8"
+    "expense.newrelic.key"         = "NRAK-NNAY54O696C4NT1WSBBKF44PVB0"
   }
 }
