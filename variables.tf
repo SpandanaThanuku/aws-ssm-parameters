@@ -20,7 +20,7 @@ variable "secrets" {
     "ses.password"                              = "BICUDmgWEtcXYFTCn91BdmasZ0KcNAcCEFtOcXS73oIz"
     "dev.expense.frontend.newrelic.key"         = "NRAK-NNAY54O696C4NT1WSBBKF44PVB0"
     "dev.expense.backend.newrelic.key"          = "e2412ed21be8c021ac67ec998c17eb11FFFFNRAL"
-    "elasticsearch.password"                    = "R=gQVoR4+gND+VpLvm4i"
+    "elasticsearch.password"                    = "krHq_WBPpFq5c2lphs*S"
   }
 }
 
