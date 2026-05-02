@@ -9,7 +9,7 @@ variable "parameters" {
     "dev.expense.frontend.backend_endpoint" = "https://backend-dev.tsdevops25.online/"
     "newrelic.account"                      = "7699150"
     "dev.expense.frontend.app_version"      = "1.0.1"
-    "dev.expense.backend.app_version"       = "1.0.1"
+    "dev.expense.backend.app_version"       = "1.0.4"
   }
 }
 
