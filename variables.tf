@@ -15,10 +15,14 @@ variable "parameters" {
 
 variable "secrets" {
   default = {
+
+    "ssh.username.centos"                       = "centos"
+    "ssh.username.rhel"                         = "ec2-user"
     "dev.expense.rds.password"                  = "ExpenseApp123"
-    "ssh.username"                              = "centos"
-    "ssh.username"                              = "ec2-user"
-    "ssh.password"                              = "DevOps321"
+    #"ssh.username"                              = "centos"
+    #"ssh.username"                              = "ec2-user"
+    "ssh.password.centos"                       = "DevOps321"
+    "ssh.password.rhel"                         = "DevOps321"
     "ses.username"                              = "AKIAVCE4KOKTN5L7ZPV3"
     "ses.password"                              = "BICUDmgWEtcXYFTCn91BdmasZ0KcNAcCEFtOcXS73oIz"
     "grafana.apikey"                            = "glsa_gRTqWsy3lu6awNJt8j49IRPS4J3TcalS_73265899"
